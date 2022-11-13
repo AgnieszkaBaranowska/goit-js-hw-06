@@ -12,3 +12,14 @@ const images = [
     alt: 'Group of Horses Running',
   },
 ];
+
+const imagesElement = document.querySelector(".gallery");
+
+for (let imagesItem of images){
+  let liImages = document.createElement("li");
+  let text = `<img src="${imagesItem.url}" />`;
+  liImages.insertAdjacentHTML("beforeend", text)
+  imagesElement.appendChild(liImages);
+}
+
+
