@@ -1,7 +1,3 @@
-// const buttonElement = document.querySelector("#counter");
-
-// for (let buttonItem of counter)
-
 let counterValue = 0;
 const buttonElement = document.querySelectorAll("button");
 const valueSpan = document.querySelector("#value");
